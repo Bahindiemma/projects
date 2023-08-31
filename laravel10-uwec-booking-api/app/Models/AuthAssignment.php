@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class AuthAssignment extends Model
+{
+    use HasFactory;
+
+    protected $fillables = [
+        'item_name',
+        'user_id',
+        'created_at',
+    ];
+}
